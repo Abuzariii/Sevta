@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lilita+One&family=M+PLUS+2:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+.section{
+    width: 70%;
+    margin: 0;
+    padding: 4rem 4rem 4rem 4rem;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(248, 248, 248));
+}
+.Recommended{
+    font-size: 1.5rem;
+    font-weight: 550;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+/* Media Queries */
+@media(max-width:620px){
+    .section{
+        width: 100%;
+    }
+}

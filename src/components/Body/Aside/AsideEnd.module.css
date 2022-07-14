@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lilita+One&family=M+PLUS+2:wght@300&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@300&display=swap');
+
+.saved{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+.saved h5{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+.saved p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.saved p:hover{
+    cursor: pointer;
+    color: black;
+}
+.saved label{
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: rgb(26, 25, 25, 0.6);
+}
+.saved a{
+    color: green;
+    margin-top: 0.8rem;
+    font-size: 0.9rem;
+}
+.footer{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.footer label{
+    font-size: 0.8rem;
+    color: rgb(80, 79, 79, 0.7);
+    margin-right: 0.8rem;
+}
+.footer label:hover{
+    cursor: pointer;
+}
+
+@media(max-width:830px){
+    .saved p{
+        font-size: 1rem;
+    }
+    .footer{
+        margin-top: 5vh;
+    }
+}
+@media(max-width:1400px){
+    .footer{
+        flex-direction: column;
+    }
+}
